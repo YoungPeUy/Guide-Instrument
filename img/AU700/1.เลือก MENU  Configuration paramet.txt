@@ -1,0 +1,20 @@
+1.เลือก MENU > Configuration parameters > Online
+2.หน้า Setup เลือกตั้งค่าดังนี้
+3.หน้า Protocol เลือกตั้งค่าดังนี้
+4.หน้า Format Configuration เลือกตั้งค่าดังนี้
+5.หน้า Online Test No ใช้ชื่อ Test Name และ Online Test No แมพรายการตรวจใน determination_au700
+
+Test Name = DeterName AU700
+Online Test No = DeterName,detercode
+specimen เทสบางตัวจะไม่เหมือนกันให้ใส่ specimen ที่ lab_speciment ด้วย
+
+6.เลือก MENU > Configuration parameters > Format 
+7.Sample Program Format ตั้งค่าดังนี้
+8.เลือก MENU > Configuration parameter > System Condition > 
+9.Analysis Mode ตั้งค่าดังนี้
+
+ส่งผลย้อนหลัง RESULT > Sample Manager > เลือกคนไข้ > LIS แล้วกด OK
+
+กดดับเบิ้ลคลิกที่บาร์โค้จะแสดงเทสที่กำลังทำ
+
+

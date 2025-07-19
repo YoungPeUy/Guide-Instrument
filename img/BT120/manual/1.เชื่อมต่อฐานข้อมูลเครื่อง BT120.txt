@@ -1,0 +1,15 @@
+1.เชื่อมต่อฐานข้อมูลเครื่อง BT120 
+IP : เครื่องตรวจ
+DB: bloodorm
+User : root
+Pass : 123456
+2.เลือกฐาน bloodorm > ตาราง t_bottles_info >เลือก Desing Table
+3.เพิ่ม Fields ในตารางของเครื่องตรวจ กด Add Fields เพิ่ม Fields ชื่อ "result_check" type เป็น "text" จากนั้นกด Save
+4.ตั้งค่า determination lab_speciment_id ต้องไม่เหมือนกัน
+state = ผลจากเครื่องตรวจ
+positiveTime = เวาลาที่ผลเป็น Positive
+putInTime = เวลาที่เอาขวดเข้าเครื่อง
+takeOutTime = เวลาที่เอาขวดออก
+
+ส่งผลย้อนหลัง เข้าตาราง t_bottles_info ใส่ SPEC_NUM ,barcode,putintime ลบ Y ที่ตาราง result_check รอเตรื่องตรวจเช็ค 1 นาทีผลถึงจะเข้า
+state จะอิงตาม Config

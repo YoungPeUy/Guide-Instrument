@@ -1,0 +1,10 @@
+1.ไปที่ Maintaner
+2.เปลื่ยน User เป็น  Maintaner password testtest 
+3.ไปที่ System configure 
+4.ตั้งค่าตามรูปภาพ
+5.เซ็ต IP ยิงไปหาเครื่อง Host ส่วน IP คอมเครื่องตรวจเซ็ต IP ให้อยู่วงเดียวกับเครื่อง Host ในหน้า windows ได้เลย
+6.ตั้งค่าตามรูปภาพ
+
+ส่งผลคนไข้ย้อนหลัง ไปที่ Test Result เลือกคนไข้ กด Sent to LIS
+
+ส่งผลคนไข้ย้อนหลัง RESULT > Sample Manager > เลือกคนไข้ > Send to LIS

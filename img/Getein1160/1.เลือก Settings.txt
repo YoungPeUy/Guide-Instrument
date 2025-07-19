@@ -1,0 +1,14 @@
+1.เลือก Settings
+2.Commuication Setting > Communication Protocol
+3.เลือกเป็น HL7
+4.Commuication Setting > Communication Mode
+5.เลือกเป็น Ethernet และกด ปุ่มเพื่อ Fix IP
+6.การ Fix IP
+IP Address = IP เครื่อง Host
+Port = พอร์ตของเครื่องตรวจที่ใช้ส่งข้อมูล
+Local IP Setting = IP ของเครื่องตรวจ
+
+ส่งผลย้อนหลัง Result > 
+เลือกคนไข้ > กดส่งผลย้อนหลัง
+
+กดส่งผลย้อนหลังจากเครื่อง จะมี DeterCode อยู่หน้าชื่อเทส
