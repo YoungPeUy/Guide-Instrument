@@ -117,15 +117,15 @@ main {
   margin-bottom: 1rem;
 }
 .main-footer {
-  background-color: #fff;
-  border-top: 1px solid #dee2e6;
-  color: #869099;
-  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: #f8f9fa;
 }
-.text-sm .main-footer, .main-footer.text-sm {
-  padding: 0.812rem;
+body { padding-bottom: 60px; }
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
-.float-right {
-  float: right !important;
-}
-
