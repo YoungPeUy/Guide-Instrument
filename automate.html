@@ -5408,6 +5408,7 @@ DIRUIH500_CRE-USE-NUMBER=Y
                                             <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#pkl-175">PKL-175</button>
                                             <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#ca620">CA-620</button>
                                             <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#sf8050">SF8050</button>
+                                            <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#c3100">C3100</button>
                                         </div>
                                         </div>
                                     </div>
@@ -6026,6 +6027,119 @@ SF8050_NAME=SF8050
                                             </div>
                                           </div>
                                         </div>
+
+
+                                        <!-- c3100 config -->
+                                        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="c3100" tabindex="-1" aria-labelledby="c3100" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                              <div class="modal-header">
+                                              <h5 class="modal-title" id="c3100Modal1Label">C3100</h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" data-parent-modal="#coagulation" aria-label="Close"></button>
+                                              </div>
+                                              <div class="modal-body text-center">
+                                              <img src="../manual_list/automate/img_manual/img/C3100/c3100.png" alt="c3100" class="img-fluid mb-3">
+                                              <p>รายละเอียดเครื่องตรวจ</p>
+                                              <div class="d-grid gap-2">
+                                                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c3100_1">ตั้งค่าเครื่องตรวจ</button>
+                                                  <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#c3100_2">สายเชื่อมต่อและ Config</button>
+                                                  <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#c3100_3">วิธีการรันคนไข้</button>
+                                              </div>
+                                              </div>
+                                          </div>
+                                          </div>
+                                        </div> 
+                                        <!-- Modal ย่อยที่ 1 -->
+                                          <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="c3100_1" tabindex="-1" aria-hidden="true" aria-labelledby="c3100_1Label">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="c3100_1Label">ตั้งค่าเครื่องตรวจ</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" data-parent-modal="#c3100" aria-label="Close"></button>
+                                                </div>
+                                                <!-- วิธีรันงานคันไข้ -->
+                                                <div class="modal-body">
+                                                  <div class="row">
+                                                    <div class="col-md-6">
+                                                      <img src="../manual_list/automate/img_manual/img/C3100/1.jpg" class="img-fluid rounded img-clickable" data-gallery="c3100_1" data-index="0" alt="c3100.1">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                      <img src="../manual_list/automate/img_manual/img/C3100/2.jpg" class="img-fluid rounded img-clickable" data-gallery="c3100_1" data-index="1" alt="c3100.2">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                      <img src="../manual_list/automate/img_manual/img/C3100/3.jpg" class="img-fluid rounded img-clickable" data-gallery="c3100_1" data-index="2" alt="c3100.3">
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!-- modal2 -->
+                                          <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="c3100_2" tabindex="-1" aria-hidden="true" aria-labelledby="c3100_2Label">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="c3100_2Label">สายเชื่อมต่อ</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" data-parent-modal="#c3100" aria-label="Close"></button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                  <div class="row">
+                                                    <div class="col">
+                                                      <img src="../manual_list/automate/img_manual/img/CABLE/LAN.png" class="img-fluid rounded img-clickable" data-gallery="subModal2" data-index="0" alt="สายเชื่อมต่อ RJ45">
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="modal-footer d-flex">
+                                                  <button class="btn btn-outline-secondary me-auto" data-bs-toggle="modal" data-bs-target="#configModaluc3100">Config</button>
+                                                  <a href="../manual_list/automate/img_manual/determination/determination_c3100.zip"  class="btn btn-outline-primary download">determination</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <!-- Config Modal -->
+                                          <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="configModaluc3100" tabindex="-1" aria-labelledby="configModalLabelc3100" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="configModalLabelc3100">Config</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" data-parent-modal="#c3100" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                  <textarea class="form-control text-start" rows="8">                                    
+C3100_COMPort=
+C3100_NAME=C3100
+C3100_BaudRate=9600
+C3100_TIME=200
+                                                  </textarea>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <!-- modal3 -->
+                                          <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="c3100_3" tabindex="-1" aria-hidden="true" aria-labelledby="c3100_3Label">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="c3100_3Label">วิธีการรันคนไข้</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" data-parent-modal="#c3100" aria-label="Close"></button>
+                                                </div>
+                                                <!-- วิธีรันงานคันไข้ -->
+                                                <div class="modal-body">
+                                                  <div class="row">
+                                                    <div class="col-md-6">
+                                                      <img src="../manual_list/automate/img_manual/img/c3100/0.jpg" class="img-fluid rounded img-clickable" data-gallery="c3100_3" data-index="0" alt="1">
+                                                    </div>
+
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
                                     <!-- เพิ่มเครื่องตรวจ coagulation -->
                         </div>
                       </div>
